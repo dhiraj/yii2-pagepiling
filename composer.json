@@ -1,0 +1,43 @@
+{
+  "name": "dhiraj/yii2-pagepiling",
+  "description": "Asset Bundle for Yii2 with jQuery.pagePiling.js",
+  "keywords": [
+    "yii",
+    "jquery",
+    "pagePiling",
+    "asset",
+    "bundle"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "support": {
+    "issues": "https://github.com/dhiraj/yii2-pagepiling/issues",
+    "source": "https://github.com/rmrevin/yii2-pagepiling"
+  },
+  "authors": [
+    {
+      "name": "Dhiraj Gupta",
+      "email": "dhiraj@traversient.com",
+      "homepage": "http://traversient.com/"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+
+    "yiisoft/yii2": "2.0.*",
+    "bower-asset/jquery": "2.2.*@stable | 2.1.*@stable | 1.11.*@stable | 1.12.*@stable",
+    "bower-asset/pagepiling.js": "^1.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "traversient\\yii\\pagepiling\\": ""
+    }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
