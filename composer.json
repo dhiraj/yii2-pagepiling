@@ -13,7 +13,7 @@
   "minimum-stability": "stable",
   "support": {
     "issues": "https://github.com/dhiraj/yii2-pagepiling/issues",
-    "source": "https://github.com/rmrevin/yii2-pagepiling"
+    "source": "https://github.com/dhiraj/yii2-pagepiling"
   },
   "authors": [
     {
